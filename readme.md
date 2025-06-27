@@ -70,8 +70,10 @@ pip install -r requirements.txt
 3. Launch the Streamlit app:
 
 streamlit run Streamlit.py
+## 📁 Project Directory Structure
 
-📂 Folder Structure
+```
+energy_efficiency_classifier/
 ├── Streamlit.py
 ├── best_random_forest_model.pkl
 ├── scaler.pkl
@@ -81,9 +83,8 @@ streamlit run Streamlit.py
 │   ├── tuned_confusion_matrix.png
 │   ├── accuracy_comparison.png
 │   └── feature_importance.png
-└── README.md
-
----
+├── README.md
+```
 
 👥 Team ENER-G
 Aizuddin
