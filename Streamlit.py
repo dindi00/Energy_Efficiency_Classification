@@ -17,8 +17,8 @@ st.set_page_config(page_title="Energy Efficiency Classifier", layout="wide")
 # Load model and scaler
 @st.cache_resource
 def load_model():
-    model = joblib.load("C:/Users/Dinosour/Desktop/ML_PROJECT_NEW/HyperTuned_Version/best_random_forest_model.pkl")
-    scaler = joblib.load("C:/Users/Dinosour/Desktop/ML_PROJECT_NEW/HyperTuned_Version/scaler.pkl")
+    model = joblib.load("best_random_forest_model.pkl")
+    scaler = joblib.load("scaler.pkl")
     return model, scaler
 
 model, scaler = load_model()
