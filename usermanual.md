@@ -116,8 +116,6 @@ To classify a building’s energy efficiency:
 
     Predicted Label: Efficient / Moderate / Inefficient
 
-    Model Confidence: Probability of the prediction
-
     Advisory Message: General feedback based on the result
 
 -----
